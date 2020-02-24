@@ -8,14 +8,6 @@ namespace calculateStringMath
         public static string Operator = "";
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
-            // 1 + 1
-            // 2 * 2
-            // 1 + 2 + 3
-            // 6 / 2
-            // 11 + 23 
-            // 11.1 + 23
-            // 1 + 1 * 3 
 
             string[] statements = new string[]{
                 "1 + 1 ",
@@ -24,8 +16,7 @@ namespace calculateStringMath
                 "6 / 2 ",
                 "11 + 23 ",
                 "11.1 + 23 ",
-                "1 + 1 * 3 ",
-                "1 + 1 * 3 / 2"
+                "1 + 1 * 3 "
             };
 
             for (int index = 0; index < statements.Length; index++)
